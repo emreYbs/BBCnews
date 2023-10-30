@@ -1,7 +1,8 @@
 
+
 #!/bin/bash
 
-#EmreYbs 
+#emreybs #mr-Ucar
 #BBC News RSS Feed Reader(BBC News RSS Feed Reader.py) v.0.01: This scripts works but some improvements are needed. 
 #So I'll work and try to improve it better.Feel free to contribute or make it for you.
 
@@ -62,16 +63,16 @@ for story in stories:
     stories_list.append(story_dict)
 print("")    
 spinner.succeed("Finished scraping latest news from BBC News official website\n")
-spinner.info("\n\tI will create a csv file in your Desktop")
+spinner.info("\n\tI will create a csv file in the current directory")
 spinner.start("\nConverting to Pandas Data Frame")
 time.sleep(3)
 df = pd.DataFrame(stories_list)
 
 #In terminal this part will give error due to Pandas Data Frame. 
 #But in Visual Studio or similar IDE, everthing works
-df.to_csv("Desktop/bbc_latest_news.csv", index=False)
+df.to_csv("bbc_latest_news.csv", index=False)
 spinner.info("Saved the csv file as 'bbc_latest_news.csv' ")
 spinner.succeed("Finished all tasks.\n")
 spinner.stop()
 
-print(cowsay.get_output_string('stimpy', 'EmreYbs wishes you a lovely day... Bye for now'))
+print(cowsay.get_output_string('stimpy', 'mr-Ucar wishes you a lovely day... Bye for now'))
