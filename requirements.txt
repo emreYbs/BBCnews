@@ -1,0 +1,6 @@
+beautifulsoup4==4.9.3
+cowsay==6.1
+halo==0.0.31
+pandas==2.1.2
+requests==2.31.0
+spinners==0.0.24
