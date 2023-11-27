@@ -1,4 +1,4 @@
-# BBCnews
+# BBCnews Version 1:
 A simple CLI tool to scrape latest BBC news. The latest news will also be saved as csv in your Desktop.
 
 **Usage:**
@@ -15,3 +15,6 @@ In terminal, the script will work well but in the end, you will get an error due
 - **pandas** 
 
 **Note:** This first version works well, but I plan to improve the code. For now, it is not as I wanted. You can edit as you wish or improve by contributing.
+
+# BBCnews Version 2:
+updated the script, removed Halo, cowsay and added extra lines of code to make the code more useful
